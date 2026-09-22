@@ -18,13 +18,14 @@
 
 <body>
 
-    <h1>Explora Plutón</h1>
+    <h1>Explora</h1>
 
     <p>
-        Experiencia plutonica de Realidad Aumentada Web.
+        Museo virtual de telescopios espaciales.
     </p>
 
     <model-viewer
+    src="telescopios/Chandra.glb"
     src="Chandra.glb"
         alt="Modelo 3D de Plutón"
         camera-controls
