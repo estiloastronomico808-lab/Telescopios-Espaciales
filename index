@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Plutón WebAR</title>
+
+    <script type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Explora Plutón</h1>
+
+    <p>
+        Experiencia plutonica de Realidad Aumentada Web.
+    </p>
+
+    <model-viewer
+    src="Chandra.glb"
+        alt="Modelo 3D de Plutón"
+        camera-controls
+        auto-rotate
+        ar
+        ar-modes="scene-viewer webxr quick-look"
+        style="width: 100%; height: 500px;">
+</model-viewer>
+
+</body>
+
+</html>
